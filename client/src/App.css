@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+.palatte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.palatte-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.palatte-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: burlywood;
+  border-radius: 10px;
+  border: 1px solid cadetblue;
+}
+.palatte-button:hover{
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+}
